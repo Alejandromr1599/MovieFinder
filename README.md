@@ -70,7 +70,9 @@ Archivo peliculas.json válido en la misma carpeta que el script
 
 👨‍💻 Autor
 Desarrollado por Alejandro Medina Ramirez
+
 Técnico en Sistemas Microinformáticos y Redes
+
 Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM)
 
 📜 Licencia
