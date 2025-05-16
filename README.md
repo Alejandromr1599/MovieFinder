@@ -1,4 +1,4 @@
-# 🎬 MovieFinder – Explorador de Películas con JSON
+# 🎬 MovieFinder– Explorador de Películas con JSON
 
 > Aplicación interactiva en Python para consultar una base de datos de películas a partir de un archivo JSON. Ideal para prácticas de estructuras de datos, lectura de archivos y menús interactivos.
 
@@ -34,10 +34,15 @@ Cada película está representada con los siguientes campos:
 
 🔍 Funcionalidades del menú
 🎞️ Listar todos los títulos de películas
-🎬 Contar cuántas películas ha dirigido cada director
-📅 Buscar películas entre un rango de años
-🎭 Buscar películas por nombre de actor
+
+🎬 Contar cuántas películas ha dirigido cada 
+
+📅 Buscar películas entre un rango de 
+
+🎭 Buscar películas por nombre de 
+
 📂 Contar películas por cada género o categoría
+
 🚪 Salir del programa
 
 ---
@@ -51,10 +56,15 @@ Archivo peliculas.json válido en la misma carpeta que el script
 ---
 
 🛠 Tecnologías aplicadas
+
 📄 Lectura y escritura con JSON en Python
+
 🔁 Bucles y condicionales
+
 🗂️ Estructuras de datos: listas y diccionarios
+
 📚 Gestión de errores con try-except
+
 🧠 Programación modular con funciones
 
 
