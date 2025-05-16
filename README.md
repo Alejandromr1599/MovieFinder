@@ -1,25 +1,70 @@
-# proyecto_json
+# 🎬 MovieFinder – Explorador de Películas con JSON
+
+> Aplicación interactiva en Python para consultar una base de datos de películas a partir de un archivo JSON. Ideal para prácticas de estructuras de datos, lectura de archivos y menús interactivos.
+
+---
+
+## 📌 Descripción
+
+**MovieFinder** es una aplicación de consola que permite buscar, listar y contar películas almacenadas en un archivo `peliculas.json`. Este proyecto está diseñado con fines educativos para trabajar con datos estructurados en formato JSON, aplicando buenas prácticas de desarrollo en Python.
+
+---
+## 🧾 Estructura del JSON
+
+Cada película está representada con los siguientes campos:
+
+``json
+{
+  "titulo": "Nombre de la película",
+  "poster": "Ruta al póster de la película (opcional)",
+  "director": ["Nombre del director"],
+  "precio": Número (precio estimado o ficticio),
+  "categoria": ["Género1", "Género2", ...],
+  "anno": Año de estreno,
+  "desc": "Descripción breve de la película",
+  "actores": [
+    {
+      "nombre": "Nombre del actor",
+      "personaje": "Personaje interpretado"
+    }
+  ]
+}
+
+---
+
+🔍 Funcionalidades del menú
+🎞️ Listar todos los títulos de películas
+🎬 Contar cuántas películas ha dirigido cada director
+📅 Buscar películas entre un rango de años
+🎭 Buscar películas por nombre de actor
+📂 Contar películas por cada género o categoría
+🚪 Salir del programa
+
+---
+
+▶️ Ejecución del programa
+Requisitos
+Python 3.7 o superior
+
+Archivo peliculas.json válido en la misma carpeta que el script
+
+---
+
+🛠 Tecnologías aplicadas
+📄 Lectura y escritura con JSON en Python
+🔁 Bucles y condicionales
+🗂️ Estructuras de datos: listas y diccionarios
+📚 Gestión de errores con try-except
+🧠 Programación modular con funciones
 
 
+👨‍💻 Autor
+Desarrollado por Alejandro Medina Ramirez
+Técnico en Sistemas Microinformáticos y Redes
+Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM)
 
-## Enunciados:
+📜 Licencia
+Este proyecto se distribuye bajo la Licencia MIT.
+Uso libre para fines educativos y personales.
 
-1. **Listar todas las peliculas que hay con su nombre.**
 
-_Esta función muestra todos los titulos de las peliculas que hay en nuestro fichero json._
-
-2. **Contar las peliculas que hay por director.**
-
-_Esta función cuenta cuantas peliculas ha hecho cada director._
-
-3. **Busca peliculas por rango de años.**
-
-_Esta función te indica que especifiques un rango de años para buscar todas las peliculas que se han hecho en ese rango de años._
-
-4. **Busca las peliculas que ha hecho dicho actor.**
-
-_Esta función busca todas las peliculas en las que ha participado el actor que le indiquemos._
-
-5. **Contar las peliculas por su genero.**
-
-_Esta función muestra el total de peliculas que hay en cada genero._
